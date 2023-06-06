@@ -1,0 +1,45 @@
+@import "variables";
+
+body {
+  margin: 0;
+  background-color: $light;
+}
+
+main {
+  max-width: 520px;
+  min-height: calc(100vh - $h-footer - 3rem);
+  padding: 1.5rem; // safe area
+  margin: 0 auto;
+  background-color: $light;
+}
+
+.mbg-green {
+  background-color: $primary;
+  color: $light;
+
+  hr {
+    margin: 0;
+    border: 1px solid $light;
+  }
+}
+
+.mbg-light {
+  background-color: $light;
+  color: $dark;
+
+  hr {
+    margin: 0;
+    border: 1px solid $dark;
+  }
+}
+
+.txt-light {
+  color: $light !important;
+}
+
+footer {
+  background-color: $light;
+  height: $h-footer;
+}
+
+
