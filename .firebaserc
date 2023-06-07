@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "kysa23-project"
+  },
+  "targets": {
+    "kysa23-project": {
+      "hosting": {
+        "ss-group-ticket": [
+          "ss-group-ticket"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

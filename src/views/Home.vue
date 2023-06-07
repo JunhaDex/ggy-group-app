@@ -37,7 +37,7 @@
 import { useGroupStore } from '@/stores/group';
 import { computed } from 'vue';
 
-const GROUP_ID: string[] = [
+const GROUP_ID = [
   '교사: 정준 | 강지예',
   '교사: 김미현 | 김영아',
   '교사: 김준하 | 김지연'
